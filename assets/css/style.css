@@ -1,0 +1,135 @@
+body {
+    background-color: #fafafa;
+}
+h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #6f86d6;
+    margin-bottom: 80px;
+}
+.nav-links{
+    height: 24vh;
+    width: 90% !important;
+}
+#nav{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 10vh;
+    align-items: center;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+ul li{
+    display: flex;
+   
+}
+ul li a{
+   text-decoration: none;
+   text-align: center;
+   margin-right: 11px;
+}
+ul li a:hover{
+    text-decoration: none;
+    background-color: palegreen;
+    
+}
+ul{
+   flex: 1;
+}
+form .search{
+width: 40%;
+height: 8vh;
+transition: 1s ease;
+border-radius: 40px;
+border: 2px solid lightslategrey;
+color: none;
+}
+form, .search:hover{
+   width: 60%;
+   position: relative;
+}
+form{
+    border: none;
+    margin: 1px auto 150px;
+}
+
+button[type="submit"] {
+    background-image: linear-gradient(to right, #48c6ef, #6f86d6);
+    border: none !important;
+    min-width: 150px;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+.form-control, .btn {
+    border-radius: 5px;
+    height: 45px;
+}
+.login-form-container,
+#form-container {
+    /*width: 100%;*/
+    margin: 0 auto;
+    margin-top: 30vh;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px #eee;
+}
+.btn[type="button"]{
+    font-size: 10%;
+}
+
+#form-container {
+    /*width: 100% !important;*/
+    margin-top: 10vh;
+    color: rgb(22, 223, 49);
+}
+.table{
+position: relative;
+}
+.table tr:hover{
+    background-color: palegreen;
+}
+.btn-add {
+    float: right;
+}
+footer{
+    height: 70px;
+    width: 100%;
+}
+#color{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#color button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+#color1{
+    background-color: #fff;
+}
+#color2{
+    background-color: #1d5a4e6b;
+}
+#color3{
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
